@@ -1,0 +1,39 @@
+.friend-head-line img{
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+.friend-head-line{
+    text-align: center;
+}
+.friendList {
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
+.profile-name{
+    color: rgb(251, 125, 22);
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.profile-name:hover{
+    color: rgb(24, 159, 172);
+}
+.add-button{
+    background-color: rgb(24, 159, 172);
+    padding: 8px 20px;
+    color: white;
+    border: 3px solid rgb(24, 159, 172);
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.add-button:focus{
+    outline: none;
+}
+.add-button:hover{
+    background: none;
+    color: black;
+}

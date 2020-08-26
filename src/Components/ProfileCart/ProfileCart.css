@@ -1,0 +1,31 @@
+.profile-review{
+    border-bottom: 2px solid rgb(255, 123, 0);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.last-added-friend img{
+    border: 3px solid gray;
+    padding: 10px;
+}
+.total-friend{
+    background-color:rgb(24, 159, 172);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 5px 5px 5px gray;
+}
+.last-added-friend{
+    background-color: rgb(24, 159, 172);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+    transition: 0.5s all;
+    color: white;
+}
+.last-added-friend:hover{
+    background: white;
+    color: black;
+    box-shadow: none;
+}
